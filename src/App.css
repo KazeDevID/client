@@ -1,0 +1,66 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/*
+font-family: 'Cute Font', cursive;
+font-family: 'DM Mono', monospace;
+font-family: 'DM Sans', sans-serif;
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Gayathri', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Trispace', sans-serif;
+font-family: 'Zen Dots', cursive;
+*/
+
+.title {
+  /* padding: 1rem;
+  font-weight: 900;
+
+  font-family: "JetBrains Mono", monospace;
+  font-family: "Roboto", sans-serif;
+  font-family: "DotGothic16", sans-serif;
+  font-family: "Gayathri", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Trispace", sans-serif;
+  font-family: "DM Mono", monospace;
+  font-family: "Petit Formal Script", cursive;
+  font-family: "Roboto", sans-serif; */
+
+  border-bottom: 3px solid #dfd3c0;
+  border-radius: 4px;
+}
+
+.arrow-btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.arrow-btn {
+  font-size: 1.6rem;
+  color: #dfd3c0;
+  /* text-shadow: 2.5px 2.2px 0px #ce5937; */
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.words {
+  writing-mode: vertical-rl;
+  font-size: 1.3rem;
+  border: 3px solid #dfd3c0;
+  padding: 1rem 1.5rem;
+  margin-top: 0.5rem;
+}
+.image {
+  /* border: 3px solid #dfd3c0; */
+}
